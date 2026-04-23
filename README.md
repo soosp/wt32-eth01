@@ -90,7 +90,7 @@ This can be fixed if necessary by adding another capacitor (e.g. 10µF for 100ms
 
 ## Programming
 
-Astute readers will have noticed this part has no USB port, so you need an adapter of some kind. There are several possibilities, listed below; whichever one you use, [PlatformIO's WT32-ETH01 board support](https://docs.platformio.org/en/latest/boards/espressif32/wt32-eth01.html) or the [Arduino IDE ESP32 add-on](https://espressif-docs.readthedocs-hosted.com/projects/arduino-esp32/en/latest/installing.html) (selecting `ESP32 Dev Board`) should work for programming, or you can use [esptool.py](https://github.com/espressif/esptool) directly if you're hardcore. (I'm not that hardcore.)
+Astute readers will have noticed this part has no USB port, so you need an adapter of some kind. There are several possibilities, listed below; whichever one you use, [PlatformIO's WT32-ETH01 board support](https://docs.platformio.org/en/latest/boards/espressif32/wt32-eth01.html) or the [Arduino IDE ESP32 add-on](https://espressif-docs.readthedocs-hosted.com/projects/arduino-esp32/en/latest/installing.html) (selecting `ESP32 Dev Board` and upload speed of `115200`) should work for programming, or you can use [esptool.py](https://github.com/espressif/esptool) directly if you're hardcore. (I'm not that hardcore.)
 
 ### Programming with a downloader gizmo
 
